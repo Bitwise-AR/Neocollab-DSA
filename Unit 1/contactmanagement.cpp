@@ -16,7 +16,7 @@ void insertionSort(vector<string>& contacts) {
         }
         
         contacts[j + 1] = key;
-        cout << "After Insertion " << i << ": ";
+        cout << "After Iteration " << i << ": ";
         for (int k = 0; k < n; ++k) {
             cout<< contacts[k] << " ";
         }
