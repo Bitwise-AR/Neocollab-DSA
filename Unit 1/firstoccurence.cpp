@@ -57,7 +57,7 @@ int main() {
         cout << "The first occurrence of " << target << " is at index " << firstOccurrence << "." << endl;
         cout << "The last occurrence of " << target << " is at index " << lastOccurrence << "." << endl;
     } else {
-        cout << "Target value " << target << " not found in the array." << endl;
+        cout << "Target value " << target << " is not found in the array." << endl;
     }
     
     delete[] prices;
